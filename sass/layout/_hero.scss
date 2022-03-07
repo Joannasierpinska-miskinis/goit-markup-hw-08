@@ -4,12 +4,10 @@
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url("../images/hero-img-mobile.jpg");
+    url(../images/hero-img-mobile.jpg);
   background-repeat: no-repeat;
   background-size: 480px 400px;
-  display: block;
-  max-width: 100%;
-  height: auto;
+ 
   }
 }
 
@@ -19,19 +17,24 @@
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url("../images/hero-img-tablet.jpg");
+    url(../images/hero-img-tablet.jpg);
   background-repeat: no-repeat;
   background-size: 768px 400px;
   }
 }
-@media screen and (min-width: 320px) and (max-width: 767px) {
-.hero__inside {
-  min-width: 480px;
-  margin: 0 auto;
-  padding-top: 118px;
-  align-items: center;
+
+@media screen and (min-width: 1200px) { 
+.hero {
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/img-overlay.jpg);
+  background-repeat: no-repeat;
+  background-size: 1200px 400px;
+  }
 }
-}
+
 
 /* .hero {
   background-image: linear-gradient(
