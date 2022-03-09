@@ -457,10 +457,11 @@ accent {
   .main-headline {
     font-size: 26px;
     font-weight: 900;
-    line-height: 1,615;
+    line-height: 1.615;
     letter-spacing: 0.06em;
     text-align: center;
     color: #ffffff;
+    padding-bottom: 30px;
   }
 }
 
@@ -716,6 +717,9 @@ svg {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero-bg-mobile@2x.jpg");
     background-repeat: no-repeat;
     background-size: 480px 400px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 }
 
@@ -725,13 +729,23 @@ svg {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero-bg-mobile.jpg");
     background-repeat: no-repeat;
     background-size: 480px 400px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 }
 
 .hero__inside {
-  height: 164px;
+  min-height: 164px;
   width: 365px;
   border-radius: 4px;
+  padding-top: 118px;
+  padding-bottom: 118px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: block;
+  margin: 0 auto;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
@@ -749,6 +763,9 @@ svg {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/img-overlay.jpg");
     background-repeat: no-repeat;
     background-size: 1200px 400px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 }
 

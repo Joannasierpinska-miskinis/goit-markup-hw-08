@@ -8,7 +8,8 @@
       ),
       url("../images/hero-bg-mobile@2x.jpg");
       background-repeat: no-repeat;
-  background-size: 480px 400px;
+      background-size: 480px 400px;
+      align-items: center;
     
   }
 }
@@ -23,14 +24,19 @@
     url("../images/hero-bg-mobile.jpg");
   background-repeat: no-repeat;
   background-size: 480px 400px;
+  align-items: center;
   
   }
 }
 .hero__inside {
-height: 164px;
+min-height: 164px;
 width: 365px;
 border-radius: 4px;
-
+padding-top: 118px;
+padding-bottom: 118px;
+align-items: center;
+display: block;
+margin: 0 auto;
 
 }
 
@@ -43,6 +49,7 @@ border-radius: 4px;
     url("../images/hero-img-tablet.jpg");
   background-repeat: no-repeat;
   background-size: 768px 400px;
+  
   }
 }
 
@@ -55,7 +62,7 @@ border-radius: 4px;
     url("../images/img-overlay.jpg");
   background-repeat: no-repeat;
   background-size: 1200px 400px;
- 
+  align-items: center;
   }
 } 
 
