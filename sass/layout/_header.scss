@@ -2,6 +2,31 @@
 .header {
   border-bottom: 1px solid #ececec;
   display: block;
+  width: 480px;
+  min-height: 60px;
+}
+@media screen and (min-width:480px) {
+.burger-btn{
+  position: absolute;
+  right: 15px;
+  top: 10px;
+  background-color: #ffffff;
+  cursor: pointer;
+  border: hidden;
+} 
+}
+
+
+@media screen and (min-width:480px) {
+.burger-btn__icon{
+  left: 425px;
+  margin-top: 10px;
+  border-radius: 0px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  &:hover{
+    fill:var(--main-color);
+  }
+}
 }
 /* .navigation {
   display: flex;

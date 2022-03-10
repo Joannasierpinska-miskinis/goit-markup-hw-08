@@ -5,8 +5,27 @@
   line-height: 1.192;
   letter-spacing: 0.03em;
   text-decoration: none;
-
 }
+
+
+.logo_light {
+  color: black;
+}
+.logo_accent {
+  color: var(--main-color);
+}
+@media screen and (min-width:480px) {
+  .logo{
+    display: flex;
+    height: 28px;
+    width: 134px;
+    padding-top: 16px;
+   
+    border-radius: nullpx;
+  }
+}
+
+
 /* .logo {
   font-family: var(--secondary-font);
   font-size: 26px;
@@ -19,15 +38,10 @@
 } */
 
 
-.logo_light {
-  color: black;
-}
 
 /* .logo_dark {
   color: #ffffff;
   display: flex;
   padding-top: 54px;
 } */
-.logo_accent {
-  color: var(--main-color);
-}
+
