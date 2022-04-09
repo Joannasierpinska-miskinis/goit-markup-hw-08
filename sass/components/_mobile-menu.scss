@@ -1,10 +1,24 @@
-.mobile {
-   
-    }
+@media screen and (min-width:480px){
+  .mobile {
+    position: absolute;
+    min-height: 796px;
+    width: 480px;
+    left: 1040px;
+     
+  }  
+}
+
+
+
+@media screen and (min-width:480px) {
+.mobile-menu {
+    height: 48px;
+    width: 219px;
+    left: 40px;
+    top: 132px;
+    border-radius: nullpx;
+       
+      }
+}
   
         
-      
-.mobile-menu {
-    display: flex;
-        
-      }

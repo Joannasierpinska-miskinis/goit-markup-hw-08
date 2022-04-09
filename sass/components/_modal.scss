@@ -14,14 +14,14 @@
   animation: animateModal 2000ms 1000ms;
   transform-origin: center center;
 }
-@media screen and (min-width:480px) {
+
   .modal {  
 width: 450px;
 min-height: 609px;  
 margin-top: 93px;
 margin-right: 40px;
   }
-}
+
 
 @keyframes animateModal {
   0% {
@@ -45,7 +45,7 @@ margin-right: 40px;
    
 }
 
-@media screen and (min-width:480px) {
+
 .inputs {
   position: absolute;
   top: 75px;
@@ -53,8 +53,8 @@ margin-right: 40px;
   right: 40px; 
   outline: none;
 }
-}
-@media screen and (min-width:480px) {
+
+
 .form-label {
   position: absolute;
   display: block;
@@ -70,10 +70,10 @@ margin-right: 40px;
   text-align: center; 
   
 }
-}
+
 
  
-@media screen and (min-width:480px) {
+
 .text-box {
   width: 370px;
   min-height: 40px;
@@ -88,7 +88,7 @@ margin-right: 40px;
       visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 }
-  } 
+   
   .text-box__name {
     background-image: url(../images/person-black.svg);
     background-repeat: no-repeat;
@@ -151,11 +151,11 @@ margin-right: 40px;
         visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
   }
-  @media screen and (min-width:480px) {
+
     textarea {
       width: 370px;
     }
-  }
+  
   label {
     display: flex;
     flex-direction: column;
