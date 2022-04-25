@@ -548,7 +548,21 @@ accent {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding-top: 54px;
+  font-family: Raleway;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+  padding-top: 60px;
+  text-decoration: none;
 }
 
 /* .logo {
@@ -1277,20 +1291,6 @@ margin-right: 30px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-
-.logo {
-  font-family: Raleway;
-  font-size: 26px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 1.192;
-  letter-spacing: 0.03em;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin: auto;
-  padding-top: 60px;
 }
 
 .address__list {

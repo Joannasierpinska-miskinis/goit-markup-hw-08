@@ -20,15 +20,26 @@
     height: 28px;
     width: 134px;
     padding-top: 16px;
-   
     border-radius: nullpx;
   }
 }
-.logo_dark {
+
+.logo_dark{
   color: #ffffff;
   display: flex;
-  padding-top: 54px;
-} 
+  font-family: Raleway;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding-top: 60px;
+  text-decoration: none;
+}
+
 
 
 /* .logo {
