@@ -674,18 +674,31 @@ accent {
   font-weight: 700;
   line-height: 1, 143;
   letter-spacing: 0.03em;
-  text-align: left;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   color: #ffffff;
-  margin-bottom: 20px;
   padding-top: 60px;
+  margin-bottom: 20px;
 }
 
+/* .footer__headline {
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1, 143;
+  letter-spacing: 0.03em;
+  text-align: left;
+  align-items: center;
+  display: flex;
+  color: #ffffff;
+  margin-bottom: 20px;
+  padding-top: 60px;
+} */
 @media screen and (min-width: 480px) {
   .mobile {
     position: absolute;
@@ -1134,6 +1147,9 @@ accent {
   margin-bottom: 10px;
 } */
 .our-clients .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -1154,7 +1170,6 @@ accent {
 }
 
 .clients__logo {
-  width: 180px;
   height: 92px;
   -ms-flex-preferred-size: calc((100%-15px) / 2);
       flex-basis: calc((100%-15px) / 2);
@@ -1163,7 +1178,7 @@ accent {
   border: 1px solid #afb1b8;
   border-radius: 4px;
   padding-top: 16px;
-  margin-bottom: 30px;
+  margin-top: 30px;
 }
 
 /* .clients__logo:nth-child(2n+1) {
@@ -1239,6 +1254,8 @@ margin-right: 30px;
   }
 } */
 .footer .container {
+  width: 480px;
+  min-height: 603px;
   background-color: #2f303a;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1250,11 +1267,6 @@ margin-right: 30px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
   padding-bottom: 60px;
 }
 
@@ -1274,14 +1286,29 @@ margin-right: 30px;
   font-weight: 700;
   line-height: 1.192;
   letter-spacing: 0.03em;
-}
-
-.address__list {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin: auto;
+  padding-top: 60px;
+}
+
+.address__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   list-style: none;
-  margin-top: 20px;
+  padding-top: 30px;
 }
 
 .adress__paragraf,
@@ -1305,12 +1332,22 @@ margin-right: 30px;
 .address__mail,
 .address__phone {
   color: rgba(255, 255, 255, 0.6);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .newsletter {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -1321,11 +1358,12 @@ margin-right: 30px;
 }
 
 .footer__headline_nws {
-  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-left: 70px;
 }
 
 .signUp {
@@ -1333,28 +1371,17 @@ margin-right: 30px;
   width: 200px;
   border-radius: 4px;
   background-color: var(--main-color);
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  border: 0;
+  margin-bottom: 20px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  border: 0;
-  margin-bottom: 20px;
 }
 
 .signUp__label {
   color: #ffffff;
   background-color: transparent;
   border: hidden;
-  margin-right: 24px;
   cursor: pointer;
   font-family: Roboto;
   font-size: 16px;
@@ -1362,7 +1389,9 @@ margin-right: 30px;
   font-weight: 700;
   line-height: 30px;
   letter-spacing: 0.06em;
-  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-left: 24px;
 }
 
@@ -1372,8 +1401,6 @@ margin-right: 30px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   background-color: #2f303a;
   border-radius: 4px;
-  margin-left: 70px;
-  margin-right: 12px;
   margin-bottom: 20px;
   outline: none;
   padding-left: 20px;
