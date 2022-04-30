@@ -27,16 +27,16 @@
         <!--logo-->
               <a class="logo logo_light" href="index.html"><span class="logo_accent">Web</span>Studio</a>
         
-              <!--  <ul class="menu">
+               <ul class="menu">
                     <li class="menu__item">
                         <a class="menu__link menu_active" href="index.html">Agencja</a></li>
                     <li class="menu__item">
                         <a class="menu__link" href="portfolio.html">Portfolio</a></li>
                     <li class="menu__item">
                         <a class="menu__link" href="#">Kontakt</a></li>
-                </ul> -->
+                </ul>
         </nav>      
-<!-- <a class="header__mail" href="mailto:info@devstudio.com">
+<a class="header__mail" href="mailto:info@devstudio.com">
     <svg class="icon-envelope" height="12" width="16">
         <use href="./images/symbol-defs.svg#icon-envelope"></use>
     </svg>info@devstudio.com</a>
@@ -51,10 +51,11 @@
             <use href="/images/icon-menu.svg#icon-menu_24px"></use>
         </svg>
     </button>
-    <div class="backdrop is-hidden" data-menu>
-      <div class="mobile">
+    <div class="backdrop is-hidden mobile-menu-open" data-menu>
+      <div class="mobile-menu" mobile-menu>
+          <a href="#"class="mobile-menu" mobal-menu-open=""></a>
         <div class="mobile__wrapper">
-          <ul class="mobile-menu list">
+          <ul class="mobile-menu__list">
             <li class="mobile-menu__item"><a class="link menu-active" href="index.html">Agencja</a></li>
             <li class="mobile-menu__item"><a class="link" href="portfolio.html">Portfolio</a></li>
             <li class="mobile-menu__item"><a class="link" href="#">Kontakt</a></li>
@@ -70,11 +71,12 @@
             <li class="mobile-social__item"><a class="link" href="#">LinkedIn</a></li>
           </ul>
         </div>
-        <button type="button" class="mobile__close-btn" data-menu-close>
-          <svg width="30" height="30">
-            <use href="/images/sprite.svg#icon-close"></use>
-          </svg>
+        <button type="button" class="mobile-menu-close" data-menu-close>
+            <svg width="30px" height="30px"class="icon-close">
+                <use href="./images/sprite.svg#icon-close"></use>
+            </svg>
         </button>
+
       </div>
     </div>
     </div>

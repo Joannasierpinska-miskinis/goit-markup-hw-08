@@ -1,24 +1,33 @@
-@media screen and (min-width:480px){
-  .mobile {
-    position: absolute;
-    min-height: 796px;
-    width: 480px;
-    left: 1040px;
-     
-  }  
-}
-
-
-
-@media screen and (min-width:480px) {
 .mobile-menu {
-    height: 48px;
-    width: 219px;
-    left: 40px;
-    top: 132px;
-    border-radius: nullpx;
-       
-      }
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  background-color: white;
+  margin: 0 auto;
+  visibility: visible;
+  opacity: 1;
+  transform: translateX(0) scale(1);
+  transition: transform var(--animation);
 }
+
+
+.mobile-menu-open {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: transform $animation, visibility $animation, opacity $animation;  
+}
+
+.mobile-menu__item{
+  font-family: Roboto;
+font-size: 40px;
+font-weight: 500;
+line-height: 47px;
+letter-spacing: 0.02em;
+text-align: left;
+}
+
   
         
