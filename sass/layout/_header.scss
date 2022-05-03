@@ -29,7 +29,7 @@
 }
 }
 
-@media screen and (min-width:480px) {
+@media screen and (max-width:767px) {
   .menu,
   .header__mail,
   .header__phone {
@@ -54,22 +54,10 @@
     align-items: center;
   }
 }
-@media screen and (min-width:1200px) {
-  .burger-btn{
-    display: none;
-  }
-}
-@media screen and (min-width:1200px) {
-.navigation {
-  display: flex;
-}
-}
-@media screen and (min-width:1200px) {
-.menu {
-  list-style: none;
-  display: flex;
-  align-items: center;
-}
+
+
+
+
 @media screen and (min-width:1200px) {
 .menu__item:not(:last-child) {
   margin-right: 36px;
@@ -91,7 +79,7 @@
 }
 
 @media screen and (min-width:1200px) {
-menu__link,
+.menu__link,
 .header__mail,
 .header__phone {
   align-items: center;
