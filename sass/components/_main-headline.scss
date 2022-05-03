@@ -1,5 +1,5 @@
 
-@media screen and (min-width: 320px) and (max-width: 767px) { 
+
 .main-headline {
 font-size: 26px;
 font-weight: 900;
@@ -9,12 +9,26 @@ text-align: center;
 color: #ffffff;
 padding-bottom: 30px;
 }
+
+@media screen and (min-width:768px) {
+.main-headline {
+font-size: 26px;
+font-weight: 900;
+line-height: 1.615;
+letter-spacing: 0.06em;
+text-align: center;
+text-align: center;
+color: #ffffff;
 }
-/* .main-headline {
-  font-size: 44px;
-  font-weight: 900;
-  line-height: 1.364;
-  letter-spacing: 0.06em;
-  text-align: center;
-  color: #ffffff;
-} */
+}
+
+@media screen and (min-width:1200px) {
+  .main-headline {
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 1.364;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: #ffffff;
+  }
+  }
