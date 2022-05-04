@@ -52,6 +52,13 @@ margin: 0 auto;
   
   }
 }
+.hero__inside {
+  height: 200px;
+  width: 694px;
+  margin: 0 auto;
+  display: block;
+  padding-top: 200px;
+} 
 
 @media screen and (min-width: 1200px) { 
 .hero {
@@ -78,11 +85,13 @@ margin: 0 auto;
   background-size: cover;
   height: 600px;
   align-items: center;
-}
+} */
+@media screen and (min-width: 1200px){
 .hero__inside {
   height: 200px;
   width: 694px;
   margin: 0 auto;
   display: block;
   padding-top: 200px;
-} */
+} 
+}
