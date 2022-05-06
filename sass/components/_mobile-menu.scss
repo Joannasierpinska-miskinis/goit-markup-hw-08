@@ -17,11 +17,11 @@
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
-  transition: transform $animation, visibility $animation, opacity $animation;  
+  
 }
 
 .mobile-menu__item{
-  font-family: Roboto;
+font-family: Roboto;
 font-size: 40px;
 font-weight: 500;
 line-height: 47px;

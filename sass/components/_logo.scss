@@ -38,23 +38,19 @@
 }
 
 
-
-/* .logo {
-  font-family: var(--secondary-font);
-  font-size: 26px;
-  font-weight: 700;
-  line-height: 1.192;
-  letter-spacing: 0.03em;
+@media screen and (min-width:1200px) {
+.logo {
   margin-right: 93px;
   align-items: center;
   text-decoration: none;
-} */
+}
+}
 
-
-
-/* .logo_dark {
+@media screen and (min-width:1200px) {
+.logo_dark {
   color: #ffffff;
   display: flex;
   padding-top: 54px;
-} */
+} 
+}
 
