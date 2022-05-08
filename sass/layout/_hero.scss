@@ -9,7 +9,9 @@
       url('../images/hero-bg-mobile@2x.jpg');
       background-repeat: no-repeat;
       background-size: 480px 400px;
+      justify-content: center;
       align-items: center;
+      text-align: center;
     
   }
 }
@@ -29,14 +31,17 @@
   }
 }
 .hero__inside {
-min-height: 164px;
 width: 365px;
+min-height: 164px;
 border-radius: 4px;
 padding-top: 118px;
 padding-bottom: 118px;
+
+justify-items: center;
 align-items: center;
 display: block;
 margin: 0 auto;
+
 }
 
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px) and (max-width: 1199px),
@@ -66,44 +71,52 @@ margin: 0 auto;
   align-items: center;
   }
 }
+ @media screen and (min-width: 768px) and (max-width: 1199px)  {
 .hero__inside {
   height: 200px;
   width: 694px;
-  margin: 0 auto;
-  display: block;
+ 
   padding-top: 200px;
+  padding-bottom: 200px;
+ 
+  justify-content: center;
+  align-items: center;
+  display: block;
+  margin: 0 auto;
 } 
+}
 
-@media screen and (min-device-pixel-ratio: 2) and (min-width: 768px) and (max-width: 1199px),
-  screen and (min-resolution: 192dpi) and (min-width: 1200px) and (max-width: 1199px),
-  screen and (min-resolution: 2dppx) and (min-width: 1200px) and (max-width: 1199px) {
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px) and (max-width: 1600px),
+  screen and (min-resolution: 192dpi) and (min-width: 1200px) and (max-width: 1600px),
+  screen and (min-resolution: 2dppx) and (min-width: 1200px) and (max-width: 1600px) {
   .hero {
     background-image: linear-gradient(
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url("../images/img-overlay@2x.jpg");
+      url("../images/hero-bg-desktop@2x.jpg");
       background-repeat: no-repeat;
       background-size: 1600px 600px;
       align-items: center;
   }
 }
-@media screen and (min-width: 1200px) { 
+
+ @media screen and (min-width: 1200px) and (max-width: 1600px)  { 
 .hero {
   background-image: linear-gradient(
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url("../images/img-overlay.jpg");
+    url("../images/hero-bg-desktop.jpg");
   background-repeat: no-repeat;
   background-size: 1060px 600px;
   align-items: center;
   }
 } 
 
-@media screen and (min-width: 1200px){
+ @media screen and (min-width: 1200px) and (max-width: 1600px) {
 .hero__inside {
-  height: 200px;
+  min-height: 200px;
   width: 694px;
   margin: 0 auto;
   display: block;

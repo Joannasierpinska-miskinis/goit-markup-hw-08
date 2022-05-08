@@ -1,6 +1,6 @@
 .container {
   width: 100%;
-  padding: 0 10px;
+  padding: 0 15px;
   display: flex;
 }
 
@@ -14,11 +14,7 @@
 
   }
 }
-@media screen and (min-width:480px) {
-  .what-do-we-do & {
-    display: none;
-  }
-}
+
 
  @media screen and (min-width:768px) {
   .container {
@@ -41,13 +37,13 @@
  
 
 @media screen and (min-width:1200px) {
-.footer & {
+.footer  {
   display: flex;
 }
 }
 
 @media screen and (min-width:1200px) {
-.our-clients & {
+.our-clients  {
   display: flex;
   margin-top: 102px;
   margin-bottom: 86px;
@@ -57,20 +53,20 @@
 }
 
 @media screen and (min-width:1200px) {
- .our-team & {
+ .our-team  {
   align-items: center;
 }
 }
 
 @media screen and (min-width:1200px) {
-.strenghts & {
+.strenghts  {
   display: flex;
   margin-top: 30px;
 }
 }
 
 @media screen and (min-width:1200px) {
-.what-do-we-do & {
+.what-do-we-do {
   display: flex;
   align-items: center;
   justify-content: center;
