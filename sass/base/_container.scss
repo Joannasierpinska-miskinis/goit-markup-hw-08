@@ -14,6 +14,11 @@
 
   }
 }
+@media screen and (min-width:480px) {
+  .what-do-we-do &{
+    display: none;
+  }
+}
 
  @media screen and (min-width:768px) {
   .container {
@@ -33,11 +38,7 @@
   }
 }
   
-  @media screen and (min-width:1200px) {
-  .header & {
-    display: flex;
-  }
-}
+ 
 
 @media screen and (min-width:1200px) {
 .footer & {
@@ -70,6 +71,7 @@
 
 @media screen and (min-width:1200px) {
 .what-do-we-do & {
+  display: flex;
   align-items: center;
   justify-content: center;
 } 

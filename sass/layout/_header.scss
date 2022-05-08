@@ -29,7 +29,7 @@
 }
 }
 
-@media screen and (max-width:767px) {
+@media screen and (max-width:480px) {
   .menu,
   .header__mail,
   .header__phone {
@@ -45,7 +45,7 @@
   @media screen and (min-width: 768px) {
     .navigation {
       display: flex;
-  
+
     }
   }
 
@@ -55,6 +55,11 @@
     align-items: center;
   }
 }
+@media screen and (min-width:768px) {
+  .menu__item:not(:last-child) {
+    margin-right: 36px;
+  }
+  }
 
 @media screen and (min-width:1200px) {
 .menu__item:not(:last-child) {
