@@ -1,9 +1,9 @@
 
-@media screen and (min-width:480px) {
+@media screen and (max-width:480px) {
   .what-do-we-do {
     display: none;
   }
-} 
+}
 
 @media screen and (min-width:1200px) {
 .img-list__item {
@@ -31,6 +31,7 @@
   color: #ffffff;
   width: 370px;
   height: 70px;
-  background: rgba(47, 48, 58, 0.8);
+  background: rgba(47, 48, 58, 0.8); 
 }
 }
+
