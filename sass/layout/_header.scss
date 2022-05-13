@@ -2,7 +2,6 @@
 .header {
   border-bottom: 1px solid #ececec;
   display: flex;
-  width: 480px;
   min-height: 60px;
 }
 @media screen and (max-width:480px) {
@@ -47,7 +46,7 @@
     }
   }
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 768px) and (max-width: 1199){
   .menu {
     list-style: none;
     align-items: center;
@@ -109,6 +108,7 @@
   position: relative;
 }
 }
+
 @media screen and (min-width:1200px) {
 .menu_active::after {
   content: "";
